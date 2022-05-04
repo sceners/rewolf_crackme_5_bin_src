@@ -1,0 +1,25 @@
+#include "e:\masm32\include\resource.h"
+
+#define IDC_IMG1 1001
+#define IDD_DLG1 1000
+#define IDC_EDT1 1002
+#define IDC_EDT 1003
+GRAY_D BITMAP DISCARDABLE "e:/masm32/Projects/CrackMe#5_by_ReWolf/gfx/gray_diodes.bmp"
+GREEN_D BITMAP DISCARDABLE "e:/masm32/Projects/CrackMe#5_by_ReWolf/gfx/green_diodes.bmp"
+MAIN BITMAP DISCARDABLE "e:/masm32/Projects/CrackMe#5_by_ReWolf/gfx/CM5.bmp"
+RED_D BITMAP DISCARDABLE "e:/masm32/Projects/CrackMe#5_by_ReWolf/gfx/red_diodes.bmp"
+IDD_DLG1 DIALOGEX 6,5,170,157
+FONT 8,"MS Sans Serif"
+STYLE 0x96000800
+EXSTYLE 0x00000000
+BEGIN
+//    CONTROL "", 1004, STATIC, SS_LEFT | WS_CHILD | SS_OWNERDRAW | WS_GROUP | SS_NOTIFY, 25, 10, 41, 11 //WS_VISIBLE |
+//    CONTROL "", 1005, STATIC, SS_LEFT | WS_CHILD | WS_GROUP | SS_NOTIFY, 25, 21, 41, 11
+
+
+  CONTROL "",IDC_EDT1,"Edit",NOT 0x10000000|0x40010001 | 0x80 ,17,99,136,9,0x00000000
+  CONTROL "",IDC_EDT,"Edit",NOT 0x10000000|0x40010001 | 0x80 ,17,116,136,9,0x00000000
+END
+
+103 ICON "Icon_1.ico"
+
